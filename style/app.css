@@ -73,6 +73,11 @@ footer>.foot-bar
 {
 	
 }
+@media screen  and (max-width: 320px){
+	footer>.foot-bar>a{
+		width: 1.6rem!important
+	}
+}
 footer>.foot-bar>a{
 	width: 2rem;
 	height: .6rem;
@@ -167,7 +172,7 @@ footer>.foot-bar>a{
 	height: 1rem;
 	line-height: 1rem;
 	text-align: center;
-	width: 6.2rem;
+	width: 5.8rem;
 	margin: 0 auto;
 }
 .sigin-page>.btn-group .btn + .btn{
@@ -421,13 +426,13 @@ footer>.foot-bar>a{
 	color: #9f9f9f;
 }
 .index>.sel-method>p>.icon-001{
-	background: url('../images/icon-one.png') no-repeat center .15rem;
+	background: url('../images/icon-one.png') no-repeat center .12rem;
 }
 .index>.sel-method>p>.icon-002{
-	background: url('../images/icon-two.png') no-repeat center .15rem;
+	background: url('../images/icon-two.png') no-repeat center .12rem;
 }
 .index>.sel-method>p>.icon-003{
-	background: url('../images/icon-three.png') no-repeat center .15rem;
+	background: url('../images/icon-three.png') no-repeat center .12rem;
 }
 .index>.sel-method>p>.icon{
 	display: inline-block;
@@ -458,7 +463,8 @@ footer>.foot-bar>a{
 	background: url('../images/prize.png') no-repeat center center;
 	background-size: 1.9rem .4rem;
 	height: 1.2rem;
-	width: 100%;		
+	width: 100%;
+	margin-bottom: 0.5rem
 }
 .index>.prize > dl{
 	width: 1.6rem;
@@ -501,6 +507,7 @@ footer>.foot-bar>a{
 	background-size: 1.9rem .4rem;
 	height: 1.2rem;
 	width: 100%;
+	margin-bottom: 0.5rem
 }
 .index>.sel-process>dl{
 	width: 1.7rem;
