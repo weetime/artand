@@ -16,6 +16,7 @@ body{
 .container{
 	color:#fff;
 	background: #000;
+	padding-top: .7rem;
 	padding-bottom: 2rem
 }
 .container a{
@@ -314,6 +315,53 @@ footer>.foot-bar>a{
 	content: "";
 	background: url('../images/del.png') no-repeat center center;
 	background-size: .36rem .36rem;
+}
+/* case-list-page */
+.case-list-page{
+	padding-top: .85rem;
+}
+.case-list-page>ul{
+	width: 7.5rem;
+	margin: 0 auto;
+	background: #000;
+}
+.case-list-page>ul>li{
+	position: relative;
+	height: 3.74rem;
+	width: 3.74rem;
+	margin-bottom: .02rem;
+}
+.case-list-page>ul>li:nth-child(2n-1){
+	float: left;
+}
+.case-list-page>ul>li:nth-child(2n){
+	float: right
+}
+.case-list-page>ul>li.check:after{
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 3.74rem;
+	width: 3.74rem;
+	background: rgba(0,0,0,.5) url('../images/make-sure.png') no-repeat center center;
+	background-size: .96rem .96rem;
+}
+.case-list-page>ul>li>img{
+	width: 3.74rem;
+	height: 3.74rem;
+}
+.case-list-page>ul>li>span{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	font-size: .32rem;
+	line-height: .8rem;
+	text-align: center;
+	background: rgba(0, 0, 0, .2);
 }
 /* index style */
 .index .title{
