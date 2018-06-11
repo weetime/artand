@@ -228,6 +228,9 @@ footer>.foot-bar>a{
 	text-align: center;
 }
  /* detail-page */
+ .detail-page{
+ 	position: relative
+ }
  .detail-page > dl.user-avatar{
  	margin: 12% auto 0 auto;
  	text-align: center;
@@ -277,6 +280,16 @@ footer>.foot-bar>a{
 	color: #9f9f9f;
 }
 
+.vote-success{
+	position: absolute;
+	top: 14rem;
+	left: 50%;
+	padding: 0.15rem 0.35rem;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 4px;
+	font-size: 0.28rem;
+	margin-left: -48px;
+}
 /* upload page */
 .upload-page{
 	margin-top: .85rem;
@@ -378,6 +391,7 @@ footer>.foot-bar>a{
 	height: 12.6rem;
 	width: 7.5rem;
 	margin: 0 auto;
+	/* margin-top: 0.2rem; */
 }
 .index>.cover>h1{
 	background: url('../images/index-title.png') no-repeat center bottom;
@@ -385,7 +399,7 @@ footer>.foot-bar>a{
 	height: 3.2rem;
 }
 .index>.cover>div{
-	margin: 6.5rem auto 0 auto;
+	margin: 6.8rem auto 0 auto;
 	width: 3.85rem;
 }
 
